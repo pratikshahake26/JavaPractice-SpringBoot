@@ -3,7 +3,7 @@ public class CountLength {
     public static void main(String[] args) {
         String string = "Pratiksha hake";
         int count = 0;
-        for(int i = 1; i < string.length(); i++) {
+        for(int i = 1; i < string.length()-1; i++) {
             if(string.charAt(i) != ' ')
                 count++;
         }
